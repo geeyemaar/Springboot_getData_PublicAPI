@@ -1,0 +1,8 @@
+stages:
+  - build
+
+build:
+  image: node
+  stage: build
+  script:
+    - sh /test/run.sh
